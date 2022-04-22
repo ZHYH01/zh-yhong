@@ -1,0 +1,175 @@
+    /* 登录页样式文件 */
+    
+    @font-face {
+        font-family: 'icomoon';
+        src: url('../fonts/icomoon.eot?7kdx0a');
+        src: url('../fonts/icomoon.eot?7kdx0a#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kdx0a') format('truetype'), url('../fonts/icomoon.woff?7kdx0a') format('woff'), url('../fonts/icomoon.svg?7kdx0a#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+    }
+    
+    .w {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    header {
+        height: 80px;
+    }
+    
+    .logo {
+        padding-top: 16px;
+    }
+    /* 主体 */
+    
+    .banner {
+        height: 485px;
+        background-color: #7e00ff;
+    }
+    
+    .banner .w {
+        height: 485px;
+        background: url(../images/loginbg.png) no-repeat top center;
+    }
+    
+    .baner_form {
+        float: right;
+        margin: 60px 100px 0 0;
+        width: 380px;
+        height: 360px;
+        background-color: #fff;
+    }
+    
+    .login_tab {
+        height: 60px;
+        line-height: 60px;
+    }
+    
+    .login_tab a {
+        display: inline-block;
+        width: 185px;
+        height: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .login_tab_l {
+        border-right: 1px solid #ccc;
+        color: #c81623;
+    }
+    
+    .login_tab_r a {
+        color: #c81623;
+    }
+    
+    .baner_form p {
+        width: 300px;
+        height: 25px;
+        background-color: #fffdee;
+        text-align: center;
+        line-height: 25px;
+    }
+    
+    .login_con {
+        padding: 0 40px;
+    }
+    
+    .login_con p {
+        width: 300px;
+        height: 25px;
+        border: 1px solid #f5eecf;
+        background-color: #fffdee;
+        text-align: center;
+        line-height: 25px;
+        margin-top: 5px;
+    }
+    
+    .username,
+    .password {
+        width: 300px;
+        height: 35px;
+        margin-bottom: 10px;
+    }
+    
+    .username {
+        margin-top: 10px;
+        border: 1px solid #3aa2e4;
+    }
+    
+    .username span,
+    .password span {
+        display: inline-block;
+        font-family: 'icomoon';
+        width: 37px;
+        height: 33px;
+        font-size: 26px;
+        background-color: #ccc;
+        line-height: 33px;
+        text-align: center;
+    }
+    
+    .password {
+        border: 1px solid rgb(85, 85, 85);
+    }
+    
+    .username input,
+    .password input {
+        float: right;
+        width: 261px;
+        height: 33px;
+    }
+    
+    .denglu {
+        height: 55px;
+        line-height: 55px;
+        color: #b2b2b2;
+    }
+    
+    .denglu input {
+        vertical-align: middle;
+    }
+    
+    .denglu a {
+        float: right;
+    }
+    
+    .btn a {
+        display: block;
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #c81623;
+        line-height: 40px;
+        text-align: center;
+    }
+    
+    .zhuce {
+        height: 80px;
+        line-height: 80px;
+    }
+    
+    .zhuce a {
+        float: right;
+        font-size: 14px;
+        color: #1474af;
+    }
+    /* 底部区域 */
+    
+    .mod_copyright {
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .links {
+        margin-bottom: 15px;
+    }
+    
+    .links a {
+        margin: 0 10px;
+    }
+    
+    .copyright {
+        line-height: 20px;
+    }

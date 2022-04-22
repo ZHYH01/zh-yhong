@@ -1,0 +1,147 @@
+/* 列表页专有样式 */
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 184px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0px 3px 14px;
+}
+
+
+/* nav模块start  */
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    padding: 0 30px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    padding: 0 22px;
+    line-height: 47px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e905';
+    margin-left: 5px;
+}
+
+
+/* 列表页主体 sk _container */
+
+.sk_bd ul {
+    width: 1205px;
+}
+
+.sk_bd ul li {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin: 0 13px 13px 0;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd ul li img {
+    width: 100%;
+}
+
+.sk_bd ul li h5 {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+.price {
+    padding: 0 10px
+}
+
+.price em {
+    font-size: 22px;
+    color: #e60012;
+}
+
+.price del {
+    margin-left: 10px;
+    font-style: 14px;
+    color: #a4a4a4;
+}
+
+.progress {
+    font-size: 14px;
+}
+
+.progress_hd {
+    padding: 0 10px
+}
+
+.progress i,
+.progress em {
+    color: #e60012;
+}
+
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #e60012;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.bar_in {
+    width: 87%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #e60012;
+    transition: all .7s;
+}
+
+.bar:hover .bar_in {
+    width: 100%;
+}
+
+.buy {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    background-color: #b1191a;
+}
